@@ -97,6 +97,75 @@
 
 
 
+/* responsive-styles-start */
+@media screen and (max-width:576px) {
+
+    .navber-contant ul {
+    display: none;
+    }
+    .navber-container {
+        margin: 50px auto;
+    }.banner-container {
+        padding: 10px 40px;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }.banner-contant h1 {
+        font-size: 35px;
+        text-align: center;
+    }.banner-contant button {
+        margin: 0px 45%;
+        width: 156px;
+    }.banner-contant h2 {
+        text-align: center;
+    }.banner-photo img {
+        width: 100%;
+    }
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:970px) {
+    .navber-contant ul {
+        margin: 50px auto;
+        }
+        .navber-container {
+            margin: 50px auto;
+        }.banner-container {
+            padding: 10px 40px;
+            flex-direction: column-reverse;
+            justify-content: center;
+        }.banner-contant h1 {
+            font-size: 35px;
+            text-align: center;
+        }.banner-contant button {
+            margin: 0px 45%;
+            width: 156px;
+        }.banner-contant h2 {
+            text-align: center;
+        }
+}
