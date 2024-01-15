@@ -105,11 +105,20 @@ hr{    width: 87%;
     border-radius: 24px;
     border: 1px solid white;
     cursor: pointer;}
-footer{color: white;
-    background: rgb(17, 17, 100);}
-    footer h1{}
-footer h2{}
+footer{    color: white;
+    background: rgb(7 7 65);
+    padding: 50px 165px;
+    text-align: center;}
+    footer h1{color: #FFF;
+        font-size: 24px;
+        font-weight: 700;}
+footer h2{color:#D9DBE1;
+    font-size: 14px;
+    font-weight: 700;}
 .footer-icon{}
+.footer-icon a{
+    color: white;
+    margin-left: 2%;}
 
 
 
@@ -192,6 +201,8 @@ footer h2{}
         .product-card {
             padding: 0px;
             flex-direction: column-reverse;
+        }footer {
+            padding: 0px;
         }
 }
 
@@ -281,5 +292,7 @@ footer h2{}
         .product-card {
             padding: 0px;
             flex-direction: column-reverse;
+        }footer {
+            padding: 0px;
         }
 }
